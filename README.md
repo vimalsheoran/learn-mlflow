@@ -14,5 +14,24 @@ MLFlow is also an easy to use tool. With a simple setup and a couple of API call
 > This tutorial contains implemetation and setup of MLFlow using Python. For parallel implementations in other languages, please refer to the [official docs](https://mlflow.org/docs/latest/index.html).
 
 > [!NOTE]
-> All the code refered to in this blog can be found in [this repository](https://github.com/vimalsheoran/learn-mlflow), 
+> All the code refered to in this blog can be found in [this repository](https://github.com/vimalsheoran/learn-mlflow),
+
+## MLFlow Setup Steps
+1. Create a virtual environment. I prefer `virtualenv` so I'll be using it.
+
+    `$ virtualenv venv`
+2. Activate your virtual environment.
+
+    `$ source venv/bin/activate`
+3. Install MLFlow.
+
+    `$ pip install mlflow`
+4. Run MLFlow's application server to test for successful install.
+
+    `$ mlflow ui`
+
+If the following commands execute successfully, you should be able to see the MLFlow service running on `http://localhost:5000`,
+![MLFlow UI](./blog/mlflow_first_run.png)
+
+
 
